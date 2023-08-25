@@ -1,0 +1,41 @@
+.lead-text  p, .lead-text{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.lead-text a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: none;
+}
+
+.card-screen {
+    cursor: pointer;
+    transition: 400ms;
+    margin: 0.2rem;
+}
+
+.img-card{
+    aspect-ratio: 16/9;
+    height: 145px;
+}
+
+.carousel-inner:hover .card-screen:not(:hover) {
+    filter: blur(5px);
+    transform: scale(0.9);
+}
+
+.carousel-inner:hover .card-screen:hover {
+    transform: scale(1.1);
+}
+
+.bg-gray{
+    background:  rgba(128, 128, 128, 0.445);
+    border: 1px solid gray;
+}
+
+.br-2{
+    border-radius: 25px;
+}
