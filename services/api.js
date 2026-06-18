@@ -1,4 +1,6 @@
-const apiKey = '47bc798df1msh660098dbc122703p11e06cjsn64cc64593f3b';
+import { API_KEY } from './config.js';
+
+const apiKey = API_KEY;
 const host = 'https://mmo-games.p.rapidapi.com/games';
 
 

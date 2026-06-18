@@ -1,0 +1,7 @@
+# Local secrets / config
+services/config.js
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
