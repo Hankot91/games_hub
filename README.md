@@ -54,7 +54,7 @@ This project has no build step, but it uses ES Modules and `fetch`, so it **must
 
 > **Note on the API key:** for simplicity this project currently reads the RapidAPI key directly from `services/api.js`. If you fork this project, generate your **own** key from RapidAPI and never commit it to a public repository — see [Roadmap](#-roadmap--possible-improvements) below for a safer approach.
 
-## 🗺️ Roadmap / possible improvements
+## Roadmap / possible improvements
 
 - [ ] Move the RapidAPI key out of the client-side bundle (e.g. proxy requests through a Netlify Function so the key never reaches the browser).
 - [ ] Persist games created in the admin panel (currently logged to console only).
@@ -62,7 +62,7 @@ This project has no build step, but it uses ES Modules and `fetch`, so it **must
 - [ ] Add loading and empty/error states to the catalog carousels.
 - [ ] Add basic unit tests for the helpers/services.
 
-## 👤 Author
+## Author
 
 **Camilo Vanegas** ([@Hankot91](https://github.com/Hankot91))
 
